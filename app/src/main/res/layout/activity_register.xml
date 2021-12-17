@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Register"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/nameAvise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This field is wrong"
+            android:textColor="#FF0000"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            tools:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/emailTextEdit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/emailAvise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This field is wrong"
+            android:textColor="#FF0000"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/passwordAvise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This field is wrong"
+            android:textColor="#FF0000"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Spinner
+            android:id="@+id/careerSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/careerAvise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a option"
+            android:textColor="#FF0000"
+            android:visibility="invisible"
+            tools:visibility="invisible" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:clickable="false"
+            android:enabled="false"
+            android:text="sign up" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

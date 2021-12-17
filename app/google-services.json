@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1001431973035",
+    "project_id": "poc-xiafra",
+    "storage_bucket": "poc-xiafra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001431973035:android:cb2fd77fc7afd477164bee",
+        "android_client_info": {
+          "package_name": "com.example.pocxiafra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001431973035-lhhj9ner6tdicok76m2n5gal9d8q1bis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqaVnd9VgeVXWyAmWjhvG560fJpOybk3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001431973035-lhhj9ner6tdicok76m2n5gal9d8q1bis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PoC Xiafra</string>
+    <string-array name="careers_array">
+        <item>Select your career</item>
+        <item>Ingeniería en Sistema Computacionales:</item>
+        <item>Ingeniería Química</item>
+    </string-array>
+</resources>
